@@ -37,33 +37,24 @@ This project is a RESTful API built using Django and Django REST Framework to ma
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/blood-donation-api.git
-   cd blood-donation-api
+
 Create and activate virtual environment
 
-bash
-Copy
-Edit
+
 python -m venv venv
 source venv/bin/activate  # or venv\Scripts\activate on Windows
 Install dependencies
 
-bash
-Copy
-Edit
+
 pip install -r requirements.txt
 Run migrations
 
-bash
-Copy
-Edit
+
 python manage.py makemigrations
 python manage.py migrate
 Run the server
 
-bash
-Copy
-Edit
+
 python manage.py runserver
 Test API
 Use Postman or any REST client to interact with the endpoints. All create/update/delete operations require authentication.
@@ -71,4 +62,3 @@ Use Postman or any REST client to interact with the endpoints. All create/update
 ✍️ Notes
 Use Django admin to manually add roles or assign permissions if RBAC is extended.
 
-All POST/PUT/DELETE requests require IsAuthenticated access.
